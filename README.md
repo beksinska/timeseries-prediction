@@ -72,11 +72,13 @@ compared to the LSTM model. This indicates that, for this particular
 univariate dataset, the SARIMA model was able to fit the data slightly
 better and predict more accurately.
 
+
 *Comparison of forecasted with SARIMA model and observed monthly mean
 temperatures*
 
 ![Comparison of forecasted with SARIMA model and observed monthly mean
 temperatures](assets/sarima.png)
+
 
 *Comparison of forecasted with LSTM model and observed monthly mean
 temperatures*
