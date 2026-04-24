@@ -67,23 +67,26 @@ model explains the variance in the data.
 
 # Results
 
-::: 
-
 Models were evaluated on a test dataset, which included temperature values starting from 2024. The SARIMA model achieved a lower RMSE and a higher R²
 compared to the LSTM model. This indicates that, for this particular
 univariate dataset, the SARIMA model was able to fit the data slightly
 better and predict more accurately.
 
+*Comparison of forecasted with SARIMA model and observed monthly mean
+temperatures*
+
 ![Comparison of forecasted with SARIMA model and observed monthly mean
 temperatures](assets/sarima.png)
+
+*Comparison of forecasted with LSTM model and observed monthly mean
+temperatures*
 
 ![Comparison of forecasted with LSTM model and observed monthly mean
 temperatures](assets/lstm.png)
 
 Plots of predicted vs. true temperature values show that the SARIMA
-model [1](#fig:SARIMA){reference-type="ref" reference="fig:SARIMA"}
-tracked the actual temperature trends more closely, than LSTM
-model [2](#fig:LSTM){reference-type="ref" reference="fig:LSTM"}.
+model tracked the actual temperature trends more closely, than LSTM
+model.
 
 # Discussion
 
