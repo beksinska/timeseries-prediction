@@ -16,8 +16,6 @@ best captures the underlying patterns in the temperature time series.
 
 The data from Berlin, Tempelhof were used for model training and predictions. The data were provided by ECA&D project.
 
-# Table of Contents {#table-of-contents .unnumbered}
-
 # Related Literature
 
 Time series prediction involves analyzing sequential data points
