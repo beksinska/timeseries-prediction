@@ -23,7 +23,7 @@ collected over time to forecast future values. This type of data is
 common in domains such as finance, weather forecasting, energy, and
 healthcare. The temporal structure of time series data makes forecasting
 a challenging task, especially when dealing with non-linear trends,
-seasonality, and data drift. [@Alsharef2022]
+seasonality, and data drift. [Alsharef2022]
 
 Machine Learning (ML) techniques have become increasingly popular for
 forecasting time series due to their ability to capture complex patterns
@@ -35,13 +35,13 @@ Traditional approaches to time series forecasting include statistical
 models such as Autoregressive (AR), Moving Average (MA), Autoregressive
 Moving Average (ARMA), and ARIMA. These models assume linear
 relationships and stationary data, which limit their effectiveness when
-applied to evolving data. [@Alsharef2022]
+applied to evolving data. [Alsharef2022]
 
 In contrast, ML methods like Recurrent Neural Networks (RNN), LSTM,
 Gated Recurrent Unit (GRU), and Independent RNN (IndRNN) are designed to
 handle sequential data and are capable of learning non-linear
 dependencies. These models often outperform classical approaches when
-properly tuned. [@Alsharef2022]
+properly tuned. [Alsharef2022]
 
 ML has significantly advanced the field of time series prediction,
 enabling models to capture complex patterns. However, achieving optimal
@@ -59,7 +59,7 @@ Since temperature data usually has seasonal patterns, a seasonal ARIMA
 
 The LSTM network is a deep learning model built to handle sequences. It
 can learn long-term dependencies in the data better than traditional
-models. [@Hochreiter1997]
+models. [Hochreiter1997]
 
 Both models were evaluated using Root Mean Square Error (RMSE) to
 measure average prediction error, and R² Score to measure how well the
